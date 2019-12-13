@@ -1,0 +1,143 @@
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="10dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRowBtn"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:paddingBottom="10dp"
+            >
+            <TextView
+                android:id="@+id/txa"
+                android:text=""
+                android:padding="2dp">
+            </TextView>
+
+            <Button
+                android:id="@+id/btndatadiri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@layout/activity_button_menu"
+                android:drawableTop="@drawable/icon_grafik"
+                android:gravity="center|center_horizontal"
+                android:padding="1dp"
+                android:text="Data Diri"
+                android:textStyle="bold"
+                android:visibility="visible" />
+            <TextView
+                android:id="@+id/txb"
+                android:text=""
+                android:padding="2dp">
+            </TextView>
+
+            <Button
+                android:id="@+id/btn_daftarDosen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@layout/activity_button_menu"
+                android:drawableTop="@drawable/icon_lokasi"
+                android:gravity="center|center_horizontal"
+                android:padding="1dp"
+                android:text="Daftar Dosen"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txc"
+                android:text=""
+                android:padding="2dp">
+            </TextView>
+
+            <Button
+                android:id="@+id/btn_matkul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@layout/activity_button_menu"
+                android:drawableTop="@drawable/icon_like"
+                android:gravity="center|center_horizontal"
+                android:padding="1dp"
+                android:text="Daftar MataKuliah"
+                android:textStyle="bold"
+                android:visibility="visible" />
+            <TextView
+                android:id="@+id/txd"
+                android:text=""
+                android:padding="2dp">
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowBtn2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/txi"
+                android:text=""
+                android:padding="2dp">
+            </TextView>
+
+            <Button
+                android:id="@+id/btn_klola_Krs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@layout/activity_button_menu"
+                android:drawableTop="@drawable/icon_cari"
+                android:gravity="center|center_horizontal"
+                android:text="Kelola KRS"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txe"
+                android:text=""
+                android:padding="2dp">
+            </TextView>
+
+            <Button
+                android:id="@+id/btn_dftr_mhs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@layout/activity_button_menu"
+                android:drawableTop="@drawable/icon_komentar"
+                android:gravity="center|center_horizontal"
+                android:text="Daftar Mhs"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txf"
+                android:text=""
+                android:padding="2dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/txg"
+                android:text=""
+                android:padding="2dp">
+            </TextView>
+        </TableRow>
+
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:src="@drawable/logo_theheran" />
+
+</RelativeLayout>

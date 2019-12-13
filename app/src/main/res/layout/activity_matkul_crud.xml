@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".matkul_crud">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KODE - MATKUL"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KODE - MATKUL"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hari"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:text="Hari"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Sks"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Sks"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="331dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sesi"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sesi"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="289dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

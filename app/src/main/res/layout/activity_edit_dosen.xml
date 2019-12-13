@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    app:counterEnabled="true"
+    app:counterMaxLength="20"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".edit_dosen">
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="376dp"
+        android:layout_height="57dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <EditText
+        android:id="@+id/Telpon"
+        android:layout_width="387dp"
+        android:layout_height="58dp"
+        android:digits="12"
+        android:ems="10"
+        android:inputType="textPersonName|phone"
+        android:text="Telpon"
+        android:maxLength="12"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <EditText
+        android:id="@+id/Alamat"
+        android:layout_width="383dp"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Alamat"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <EditText
+        android:id="@+id/editText24"
+        android:layout_width="373dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Gelar"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <EditText
+        android:id="@+id/editText25"
+        android:layout_width="376dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Link"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="315dp" />
+
+    <Button
+        android:id="@+id/Simpan"
+        android:layout_width="369dp"
+        android:layout_height="48dp"
+        android:text="SImpan"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="384dp"
+        tools:srcCompat="@tools:sample/avatars" />
+</androidx.constraintlayout.widget.ConstraintLayout>
